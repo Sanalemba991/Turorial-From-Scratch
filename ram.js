@@ -35,7 +35,7 @@
 
 // if(sam<=21 || ram>=21){
 //     console.log("eligible for vote");
-    
+
 // }
 // else{
 //     console.log("not eligible for vote");
@@ -66,3 +66,88 @@
 //     console.log("Fail");
 // }
 
+//swicth
+// ram =111;
+
+// switch (ram){
+// case 1 :
+// console.log("Its wrong");
+// break;
+
+// case 90:
+// console.log("it true");
+// break;
+//  default:
+// console.log("not found")
+// }
+
+//function
+//function GooBye(){
+//     console.log("GOodBYE");
+// }
+// GooBye();
+
+// function Add(a,f){
+
+//     ram=a+f;
+//     console.log(ram);
+
+// }
+// Add(43,90);
+
+//function with argument and parameter
+// function Add(m,k){
+//     Dam=m+k;
+//     console.log(Answer =(Dam));
+// }
+// Add(89,90)
+
+// function with return type
+// function giveCandy() {
+//     Ram=9021341230;
+//     return Ram;
+// }
+
+// let x = giveCandy();
+
+// console.log(x);
+
+//function expression 
+// const sam=function Rom(){
+//     console.log("raaa")
+// };
+// sam();
+//interview qiuestion;
+// const Dis=function (deg,sec){
+//     return deg-sec;
+// }
+// console.log(Dis(59,9))
+
+//interview question
+// const calculateSalary = function (basicSalary, bonus, tax) {
+//     if (basicSalary < 0) {
+//         return "Invalid salary";
+//     }
+
+//     return basicSalary + bonus - tax;
+// };
+
+// console.log(calculateSalary(-100, 500, 50));
+
+//arrow function
+
+// const calculateFinalPrice = (price, discount, tax) => {
+//     return price - discount + tax;
+// };
+
+// console.log(calculateFinalPrice(1000, 200, 50));
+
+// callback function
+// function calculateOperation(a,b,operation){
+//     return operation(a,b)
+// }
+
+// const Sam= calculateOperation(20, 10, function(a, b) {
+//     return a - b;
+// })
+// console.log(Sam)
