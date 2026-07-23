@@ -151,3 +151,14 @@
 //     return a - b;
 // })
 // console.log(Sam)
+const profile =[
+    {
+    name:"Shardha",
+    posts:195,
+    followers:"56k",
+    following: 4,
+    description:"Apna College"
+
+}
+]
+console.log(profile[0].description)
