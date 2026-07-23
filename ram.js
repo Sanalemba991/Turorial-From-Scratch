@@ -150,15 +150,65 @@
 // const Sam= calculateOperation(20, 10, function(a, b) {
 //     return a - b;
 // })
-// console.log(Sam)
-const profile =[
-    {
-    name:"Shardha",
-    posts:195,
-    followers:"56k",
-    following: 4,
-    description:"Apna College"
+// // console.log(Sam)
+// const profile =[
+//     {
+//     name:"Shardha",
+//     posts:195,
+//     followers:"56k",
+//     following: 4,
+//     description:"Apna College"
 
-}
-]
-console.log(profile[0].description)
+// }
+// ]
+// console.log(profile[0].description)
+
+// reverse string
+
+
+//new style
+// let  a=90;
+// let b=80
+// console.log("a+b=",a+b)
+
+// ** hyrishe keino hyba mtm da power ne 2*2*2*
+
+
+//unary operator 
+
+// let a=9
+
+// let b=a;
+
+// console.log(b)//9
+// console.log(a)//10 increment operator first use then increment , increase after stored
+
+//operators
+
+// a=9
+
+// a %= 34;
+
+// console.log(a);//10 increment operator first use then increment , increase after stored
+
+// let a =9;
+
+//  a **= 9;
+// console.log(a);
+
+// conparision operator
+
+// b=9;
+// c=9;
+
+// b==c;
+
+// console.log("b==c",b===c);
+
+b=9;
+
+c=90;
+
+c !==b;
+
+console.log("c!==b",c!==b);
