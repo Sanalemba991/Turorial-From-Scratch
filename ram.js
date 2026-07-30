@@ -4,6 +4,8 @@
 //     age: 30
 // };
 
+const { jsx } = require("react/jsx-runtime");
+
 // console.log(person.name , person.age);
 
 //type of 
@@ -338,3 +340,35 @@
 // else {
 //     console.log("odd")
 // }
+
+
+
+//guessing number 
+
+// const sana = 25;
+
+// let ram = prompt("think the number");
+
+// while (sana !== ram) {
+//     ram = prompt("you enter wrong nuime")
+// }
+// console.log("right")
+
+// string in js
+
+
+// let str="opiuou"
+
+// console.log(str[0])
+
+
+//string template with string interpolation
+// let obj={
+//     name:"Sana",
+//     price:89,
+
+// }
+// let output=`the cos of pen is ${obj.price}`
+// console.log(output);
+
+// console.log(obj.name,obj.price)
