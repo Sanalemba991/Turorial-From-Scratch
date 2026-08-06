@@ -4,6 +4,8 @@
 //     age: 30
 // };
 
+const { jsx } = require("react/jsx-runtime");
+
 // console.log(person.name , person.age);
 
 //type of 
@@ -150,7 +152,11 @@
 // const Sam= calculateOperation(20, 10, function(a, b) {
 //     return a - b;
 // })
+<<<<<<< HEAD
 // console.log(Sam)
+=======
+// // console.log(Sam)
+>>>>>>> 52c2e3163659efb65ed976554e70a3119b2b796d
 // const profile =[
 //     {
 //     name:"Shardha",
@@ -158,6 +164,7 @@
 //     followers:"56k",
 //     following: 4,
 //     description:"Apna College"
+<<<<<<< HEAD
 
 // }
 // ]
@@ -328,3 +335,217 @@
 // Company.push("Amazon")
 // console.log(Company)
 
+=======
+
+// }
+// ]
+// console.log(profile[0].description)
+
+// reverse string
+
+
+//new style
+// let  a=90;
+// let b=80
+// console.log("a+b=",a+b)
+
+// ** hyrishe keino hyba mtm da power ne 2*2*2*
+
+
+//unary operator 
+
+// let a=9
+
+// let b=a;
+
+// console.log(b)//9
+// console.log(a)//10 increment operator first use then increment , increase after stored
+
+//operators
+
+// a=9
+
+// a %= 34;
+
+// console.log(a);//10 increment operator first use then increment , increase after stored
+
+// let a =9;
+
+//  a **= 9;
+// console.log(a);
+
+// conparision operator
+
+// b=9;
+// c=9;
+
+// b==c;
+
+// console.log("b==c",b===c);
+
+// b=9;
+
+// c=90;
+
+// c !==b;
+
+// console.log("c!==b",c!==b);
+
+//conditional operator
+
+//if
+// let age =20;
+
+// if (age >=18){
+//     console.log("eligible for vote");
+// }
+// else{
+//     console.log("not eligible for vote");
+// }
+
+
+// let mode="white";
+// let color;
+// if(mode==="dark"){
+
+//     color="black";
+// }
+// else{
+
+//     color="white";
+// }
+
+// console.log(color);
+//divisible
+// let num=10
+
+// if(num %2==0){
+//     console.log("its devisible")
+// }
+
+
+// let num = 13;
+
+// if (num % 2 == 0) {
+//     console.log("It's divisible by 2");
+// } else {
+//     console.log("It's not divisible by 2");
+// // }
+// let numb = 90;
+
+// if (numb % 30 === 0) {
+
+//     console.log("its devided by 90")
+
+// }
+// else if (numb % 30 === 0) {
+//     console.log("its divided by 30")
+// }
+// else (numb % 40 === 0)
+// {
+//     console.log("its divided by 40")
+// } syntax error will be there 
+
+// syntax not error
+// let numb = 90;
+
+// if (numb % 20 === 0) {
+//     console.log("It's divisible by 20");
+// }
+// else if (numb % 3 === 0) {
+//     console.log("It's divisible by 3");
+// }
+// else if (numb % 10 === 0) {
+//     console.log("It's divisible by 40");
+// }
+// else {
+//     console.log("It is not divisible by 20, 3, or 40");
+// }
+
+//else if
+
+// let age =9;
+
+// if (age === 90){
+//     console.log("age is 90")
+// }
+// else if(age === 40){
+//     cosnole.log("age is 40")
+// }
+
+// else
+// {
+//     console.log("not in here")
+// }
+
+//ternary operator
+// let age =9;
+
+// let you =age>18 ? "adult":"bit wrong";
+
+// console.log(you)
+
+
+//taking input from user using prompt and alert in here taking prompt is for taking input from user
+// alert("hello world");//one tim pop up
+
+// let propm = prompt("Enter the number");
+
+// if (propm % 5 == 0) {
+//     console.log("its  Divisible")
+// }
+// else {
+//     console.log(propm,"its not divisble")
+// }
+//exercise
+// let a = -90;
+
+// if (a > 0) {
+//     console.log("a is a positive number");
+// } else if (a < 0) {
+//     console.log("a is a negative number");
+// } else {
+//     console.log("a is zero");
+// }
+
+// let sam = 10;
+
+// if (sam % 2 === 0) {
+//     console.log("even")
+// }
+// else {
+//     console.log("odd")
+// }
+
+
+
+//guessing number 
+
+// const sana = 25;
+
+// let ram = prompt("think the number");
+
+// while (sana !== ram) {
+//     ram = prompt("you enter wrong nuime")
+// }
+// console.log("right")
+
+// string in js
+
+
+// let str="opiuou"
+
+// console.log(str[0])
+
+
+//string template with string interpolation
+// let obj={
+//     name:"Sana",
+//     price:89,
+
+// }
+// let output=`the cos of pen is ${obj.price}`
+// console.log(output);
+
+// console.log(obj.name,obj.price)
+>>>>>>> 52c2e3163659efb65ed976554e70a3119b2b796d
