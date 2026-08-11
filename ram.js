@@ -152,11 +152,10 @@ const { jsx } = require("react/jsx-runtime");
 // const Sam= calculateOperation(20, 10, function(a, b) {
 //     return a - b;
 // })
-<<<<<<< HEAD
 // console.log(Sam)
-=======
+
 // // console.log(Sam)
->>>>>>> 52c2e3163659efb65ed976554e70a3119b2b796d
+
 // const profile =[
 //     {
 //     name:"Shardha",
@@ -164,7 +163,7 @@ const { jsx } = require("react/jsx-runtime");
 //     followers:"56k",
 //     following: 4,
 //     description:"Apna College"
-<<<<<<< HEAD
+
 
 // }
 // ]
@@ -239,7 +238,7 @@ const { jsx } = require("react/jsx-runtime");
 
 //for loof with condition statement
 // for (let num = 0; num <=100; num++) {
- 
+
 //     if(num%2==0){
 //         console.log(num)
 //     }
@@ -288,7 +287,7 @@ const { jsx } = require("react/jsx-runtime");
 // for (let i=0;i<Item.length;i++){
 //     sum=Item[i]*30/100
 //     Item[i]=Item[i]-sum
-   
+
 // }
 //  console.log(Item)
 
@@ -300,8 +299,8 @@ const { jsx } = require("react/jsx-runtime");
 //     console.log(`index of ${idx}= ${val}`)
 //     idx++
 // }
- 
- //push only end one others all by splice
+
+//push only end one others all by splice
 // let Marvel = ["asdasd", "oasjdpasd", "sana"];
 
 // let sam=Marvel.push("sana");
@@ -335,7 +334,6 @@ const { jsx } = require("react/jsx-runtime");
 // Company.push("Amazon")
 // console.log(Company)
 
-=======
 
 // }
 // ]
@@ -548,4 +546,308 @@ const { jsx } = require("react/jsx-runtime");
 // console.log(output);
 
 // console.log(obj.name,obj.price)
->>>>>>> 52c2e3163659efb65ed976554e70a3119b2b796d
+
+
+
+
+
+//pyramids
+// function Sam() {
+//     let Str = "sadasdasdasdtewr";
+//     let count = 0;
+
+//     for (let i = 0; i < Str.length; i++) {
+
+//         if (Str || a || e || i || i || o || u) {
+
+//         }
+//         {
+//             count = count + Str[i];
+//             console.log(count)
+//         }
+//     }
+//     return Sam
+// }
+// console.log(Sam())
+
+
+
+//Create a function using the “function” keyword that takes a String as an argument &
+//returns the number of vowels in the string.
+//count the vowel
+// function Sam() {
+//     let Str = "sadasdasdasdtewr";
+//     let count = 0;
+
+//     for (let i = 0; i < Str.length; i++) {
+
+//         if (Str[i] == "a" ||
+//             Str[i] == "e" ||
+//             Str[i] == "i" ||
+//             Str[i] == "o" ||
+//             Str[i] == "u") {
+//             count++;
+
+//         }
+//     }
+//     return count
+// }
+// console.log(Sam())
+
+
+
+//Create a function using the “function” keyword that takes a String as an argument &
+//returns the number of vowels in the string.
+
+
+/// without function 
+// let Str = "mnoaisnreioewrnfkfewjmpiorjwpeorjwperwe";
+// let count = "";
+
+// for (let i = 0; i < Str.length; i++) {
+
+//     if (Str[i] == "a" ||
+//         Str[i] == "e" ||
+//         Str[i] == "i" ||
+//         Str[i] == "o" ||
+//         Str[i] == "u")
+//            count = count + Str[i]
+//         ; {
+
+//     }
+
+// }
+// console.log(count)
+
+
+/// with function 
+// function Sam() {
+
+//     let Str = "mnoaisnreioewrnfkfewjmpiorjwpeorjwperwe";
+//     let count = "";
+
+//     for (let i = 0; i < Str.length; i++) {
+
+//         if (Str[i] == "a" ||
+//             Str[i] == "e" ||
+//             Str[i] == "i" ||
+//             Str[i] == "o" ||
+//             Str[i] == "u")
+//             count = count + Str[i]
+//                 ; {
+
+//         }
+
+//     }
+//     return count
+// }
+// console.log(Sam())
+
+//Arrow Function
+// const Sam=()=>{
+
+//     let Str = "mnoaisnreioewrnfkfewjmpiorjwpeorjwperwe";
+//     let count = "";
+
+//     for (let i = 0; i < Str.length; i++) {
+
+//         if (Str[i] == "a" ||
+//             Str[i] == "e" ||
+//             Str[i] == "i" ||
+//             Str[i] == "o" ||
+//             Str[i] == "u")
+//             count = count + Str[i]
+//                 ; {
+
+//         }
+
+//     }
+//     return count
+// };
+// console.log(Sam())
+
+// let str = "Sana";
+
+// str.split("").forEach((i,r) => {
+//     console.log(i,r);
+// });
+
+
+// let Sana = [6, 7, 8, 9, 123];
+
+// Sana.forEach(function (i) {
+//     console.log(i * 9);
+// });
+// //
+// let Ram = [6, 7, 8, 9, 123];
+
+// let saa = Sana.map(function (i) {
+//     return i * 9;
+// });
+
+// console.log(saa);
+// //
+// let Rom=[1321,432,324]
+// let result = Rom.filter(function(i) {
+//     return i > 900;
+// });
+
+// console.log(result);
+
+
+//
+// let arr = [2, 4, 6, 8, 10];
+
+// const Am=(asm)=>{
+
+// return asm*2;
+
+// }
+// let assm=arr.map(Am)
+
+// console.log(assm)
+
+
+//checking largest
+// let arr = [2, 4, 6, 8, 10];
+// let store = arr.filter((sad) => {
+//   return sad > 3;
+// });
+
+// console.log(store);
+
+//most largest
+
+//Max min == find the largest and Max Min find the smallest
+
+//normal function
+// let arr = [2, 4, 6, 8, 10];
+// let Largest = arr.filter(function (val) {
+
+//     return val === Math.max(...arr)
+
+// })
+// console.log(Largest)
+
+// let arr = [2, 4, 6, 8, 10];
+
+// let Largest=arr.filter((val)=>{
+//     return val=== Math.min(...arr)
+// })
+
+// console.log(Largest)
+
+///
+
+let arr = [10, 20, 30];
+
+// let result = arr.map(function(value) {
+//   return value * 2;
+// });
+
+// console.log(result);
+
+// function Aso(val) {
+
+//     return val * 2
+
+// }
+
+// let Am = arr.map(Aso);
+// console.log(Am)
+
+
+
+// //
+// let Anmto = ['werwerw', 'wer', 'Shahbaz'];
+
+// function SAM(value) {
+//   console.log(value + "erwrwer");
+// }
+
+// Anmto.forEach(SAM);
+
+
+//forEach,map,filter
+
+// let arr = [10, 20, 30, 40, 50];
+
+// // forEach
+// function printValue(val) {
+//   console.log(val);
+// }
+
+// arr.forEach(printValue);
+
+
+// map
+// function doubleValue(val) {
+//   return val * 2;
+// }
+
+// let doubled = arr.map(doubleValue);
+
+// console.log(doubled);
+
+
+// filter
+// function greaterThan20(val) {
+//   return val > 20;
+// }
+
+// let filtered = arr.filter(greaterThan20);
+
+// console.log(filtered);
+
+//normal function
+
+// let SAm = ["sadasd", "ikikuik", "jiuiiij"]
+//normal function
+
+// function AM(val)
+// {
+//     console.log (val);
+// }
+// SAm.forEach(AM);
+
+//anynonymous function
+// SAm.forEach((val)=>{
+// console.log (val);
+// })
+
+//arrow fucntion
+// SAm.forEach(function(val){
+//     console.log(val)
+// })
+
+
+// let SsAm = ["sadasd", "ikikuik", "jiuiiij"]
+
+//normal function
+// function SnM(val){
+// return val+"oiasndoiasd"
+// }
+
+// let AMM=SsAm.map(SnM)
+
+// console.log(AMM)
+
+// //anynonymous function
+// let SAm = (val) => {
+//   return val + "op";
+// };
+
+// let Sop = SsAm.map(SAm);
+
+// console.log(Sop);
+
+
+//ARROW
+// let SsAm = ["sadasd", "ikikuik", "jiuiiij"]
+
+// let SAMM = SsAm.map((val) => {
+//     return val + "asdasd";
+
+// })
+// console.log(SAMM)
+
