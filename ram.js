@@ -210,62 +210,209 @@
 
 //all dom
 
-let title = document.getElementById("title");
+// let title = document.getElementById("title");
 
-let input = document.getElementById("taskInput");
+// let input = document.getElementById("taskInput");
 
-let addBtn = document.getElementById("addBtn");
+// let addBtn = document.getElementById("addBtn");
 
-let removeBtn = document.getElementById("removeBtn");
+// let removeBtn = document.getElementById("removeBtn");
 
-let colorBtn = document.getElementById("colorBtn");
+// let colorBtn = document.getElementById("colorBtn");
 
-let toggleBtn = document.getElementById("toggleBtn");
+// let toggleBtn = document.getElementById("toggleBtn");
 
-let message = document.getElementById("message");
+// let message = document.getElementById("message");
 
-let container = document.getElementById("container");
-
-
-// ADD
-addBtn.addEventListener("click", () => {
-
-    let task = document.createElement("p");
-
-    task.className = "text";
-
-    task.innerHTML = input.value;
-
-    container.appendChild(task);
-
-    input.value = "";
-
-    message.innerHTML = "Task added";
-});
+// let container = document.getElementById("container");
 
 
-// REMOVE
-removeBtn.addEventListener("click", () => {
+// // ADD
+// addBtn.addEventListener("click", () => {
 
-    let task = document.getElementsByClassName("text")[0];
+//     let task = document.createElement("p");
 
-    task.remove();
+//     task.className = "text";
 
-    message.innerHTML = "Task removed";
-});
+//     task.innerHTML = input.value;
 
+//     container.appendChild(task);
 
-// CHANGE BACKGROUND COLOR
-colorBtn.addEventListener("click", () => {
+//     input.value = "";
 
-    container.style.backgroundColor = "yellow";
-
-});
+//     message.innerHTML = "Task added";
+// });
 
 
-// TOGGLE CLASS
-toggleBtn.addEventListener("click", () => {
+// // REMOVE
+// removeBtn.addEventListener("click", () => {
 
-    title.classList.toggle("red");
+//     let task = document.getElementsByClassName("text")[0];
 
-});
+//     task.remove();
+
+//     message.innerHTML = "Task removed";
+// });
+
+
+// // CHANGE BACKGROUND COLOR
+// colorBtn.addEventListener("click", () => {
+
+//     container.style.backgroundColor = "yellow";
+
+// });
+
+
+// // TOGGLE CLASS
+// toggleBtn.addEventListener("click", () => {
+
+//     title.classList.toggle("red");
+
+// });
+
+// let sam = prompt("Enter a number");
+
+// let Ram = prompt("Enter Surname");
+
+// let full = sam.concat(Ram);
+
+// console.log(full);
+// console.log(full.length);
+
+// let sam = prompt("Enter");
+// console.log(sam);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// javascript before dom finished 
+// let number = 100;
+
+// for (let i = 1; i <= number; i++) {
+
+//     console.log(i);
+// }
+
+// even
+// let num = 100;
+
+// for (let i = 1; i <= num; i++) {
+
+//     if (i % 2 == 0) {
+//         console.log(i)
+//     }
+
+// }
+// let sam = prompt("Enter a number");
+
+// while (sam != 9) {
+//     sam = prompt("wrong")
+//     console.log("correct")
+// }
+// let sam = prompt("Enter a number");
+
+// let Ram = prompt("Enter Surname");
+
+// let full = sam.concat(Ram);
+
+// console.log(full);
+// console.log(full.length);
+//print all element
+
+
+// String
+// const Sana = [21, 21, 2]
+
+// for (let i of Sana) {
+//     console.log(i)
+// }
+
+
+//total average
+// let student = [ 85, 97, 44, 37, 76, 60];
+// let average = 0;
+// let sam = 0
+// for (let i = 0; i < student.length; i++) {
+//     average = average + student[i];
+//     sam = average / student.length
+// }
+// console.log(average)
+// console.log(sam);
+
+// For a given array with prices of 5 items -> [250, 645, 300, 900, 50]
+// All items have an offer of 10% OFF on them. Change the array to store final price after
+// applying offer.
+
+
+//offer how much for offer needed
+// let price = [250, 645, 300, 900, 50];
+
+// for (let i = 0; i < price.length; i++) {
+
+//   let  sam = price[i];
+
+//   let offer=sam*10/100
+//   console.log(offer)
+
+// }
+
+//how much after deduct
+
+// let price = [250, 645, 300, 900, 50];
+
+// for (let i = 0; i < price.length; i++) {
+
+//   let  sam = price[i];
+
+//   let offer=sam*10/100
+
+//   let final=sam-offer
+//   console.log(final)
+
+// }
+
+//javascript last moment
+const companies = ["bloomberg", "microsoft", "uber", "google", "ibm", "netflix"];
+
+companies.splice(0, 1);
+companies.splice(1, 1, "ola")
+
+companies.push("Amazon")
+console.log(companies)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
