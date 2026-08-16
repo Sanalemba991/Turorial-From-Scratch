@@ -1,23 +1,35 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>DOM Practice</title>
+
+  <style>
+    .red {
+      color: red;
+    }
+  </style>
 </head>
-<style>
-  .red {
-    color: yellowgreen;
-  }
-</style>
 
 <body>
-  <h1 id="title">Hello World</h1>
-  <button class="KL">adsc</button>
-  <button class="KL1">adsssc</button>
-  <p class="Text">emwifwoefinweofnwofnwoifwnefonwefinwefwoef</p>
+
+  <h1 id="title">My To-Do List</h1>
+
+  <input id="taskInput" type="text" placeholder="Enter task">
+
+  <button id="addBtn">Add Task</button>
+  <button id="removeBtn">Remove Task</button>
+  <button id="colorBtn">Change Color</button>
+  <button id="toggleBtn">Toggle Red</button>
+
+  <p id="message">No task added</p>
+
+  <div id="container">
+    <p class="text">First Task</p>
+  </div>
+
   <script src="./ram.js"></script>
+
 </body>
 
 </html>

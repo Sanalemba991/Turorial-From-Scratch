@@ -126,3 +126,146 @@
 // buts.addEventListener("click", () => {
 //     sam.style.display = "block";
 // })
+
+
+// Write a program to change the background color when a button is clicked.
+// let back = document.getElementById("sa");
+
+// let but = document.getElementsByClassName("KL1")[0];
+// let but2 = document.getElementsByClassName("KL1")[1];
+
+// but.addEventListener("click", () => {
+//     back.style.backgroundColor = "yellow";
+// });
+
+// but2.addEventListener("click", () => {
+//     back.style.backgroundColor = "rgb(255, 0, 0)";
+// });
+
+// let val = document.getElementById("input")
+// let sam = document.getElementById("btn")
+
+// let pa = document.getElementById("result")
+
+// sam.addEventListener("click", () => {
+
+//     pa.textContent = val.value
+//     //.innerHtml
+
+// })
+// let container = document.getElementById("container");
+// let btn = document.getElementById("btn");
+
+// btn.addEventListener("click", () => {
+//     let p = document.createElement("p");
+
+//     p.innerHTML = "Hello, this is a new paragraph";
+
+//     container.appendChild(p);
+// });
+
+//without child
+// let container = document.getElementById("container");
+// let p = document.getElementsByClassName("text")[0];
+
+// p.remove()
+
+//with child
+
+
+///very2 impontant
+// let Con = document.getElementById("container");
+
+// let but = document.getElementById("btn");
+// let but2 = document.getElementById("remove");
+
+// but.addEventListener("click", () => {
+//     let sam = document.createElement("p");
+
+//     sam.className = "text";
+//     sam.innerHTML = "SAna";
+
+//     Con.appendChild(sam);
+// });
+
+// but2.addEventListener("click", () => {
+//     let p = document.getElementsByClassName("text")[1];
+
+//     p.remove();
+// });
+
+
+//Write a program to count how many times a button has been clicked.
+
+// let btn = document.getElementById("btn");
+// let result = document.getElementById("result");
+
+// let count = 0;
+
+// btn.addEventListener("click", () => {
+//     count++;
+
+//     result.innerHTML = count;
+// });
+
+//all dom
+
+let title = document.getElementById("title");
+
+let input = document.getElementById("taskInput");
+
+let addBtn = document.getElementById("addBtn");
+
+let removeBtn = document.getElementById("removeBtn");
+
+let colorBtn = document.getElementById("colorBtn");
+
+let toggleBtn = document.getElementById("toggleBtn");
+
+let message = document.getElementById("message");
+
+let container = document.getElementById("container");
+
+
+// ADD
+addBtn.addEventListener("click", () => {
+
+    let task = document.createElement("p");
+
+    task.className = "text";
+
+    task.innerHTML = input.value;
+
+    container.appendChild(task);
+
+    input.value = "";
+
+    message.innerHTML = "Task added";
+});
+
+
+// REMOVE
+removeBtn.addEventListener("click", () => {
+
+    let task = document.getElementsByClassName("text")[0];
+
+    task.remove();
+
+    message.innerHTML = "Task removed";
+});
+
+
+// CHANGE BACKGROUND COLOR
+colorBtn.addEventListener("click", () => {
+
+    container.style.backgroundColor = "yellow";
+
+});
+
+
+// TOGGLE CLASS
+toggleBtn.addEventListener("click", () => {
+
+    title.classList.toggle("red");
+
+});
