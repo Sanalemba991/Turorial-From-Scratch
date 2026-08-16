@@ -98,3 +98,31 @@
 // toggle.addEventListener("click", () => {
 //     title.classList.toggle("red");
 // });
+// let sas = document.getElementById("title");
+// let san = document.getElementsByClassName("sam");
+
+// san[0].addEventListener("click", () => {
+//     sas.innerHTML = "Helllo"
+// })
+//Write a program to change the color of a paragraph when a button is clicked.
+
+// let cols = document.querySelector(".Text");
+// let sam = document.querySelector(".KL");
+
+// sam.addEventListener("click", () => {
+//     cols.style.color = "red";
+// });
+
+//Write a program to hide and show a <div> using a button.
+
+// let sam = document.querySelector(".Text");
+// let but = document.querySelector(".KL");
+// let buts = document.querySelector(".KL1")
+
+// but.addEventListener("click", () => {
+//     sam.style.display = "none";
+// });
+
+// buts.addEventListener("click", () => {
+//     sam.style.display = "block";
+// })

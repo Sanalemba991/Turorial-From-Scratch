@@ -1,3 +1,11 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.inlineSuggest.enabled": false,
+    "editor.suggest.preview": false,
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.snippetSuggestions": "none"
 }
